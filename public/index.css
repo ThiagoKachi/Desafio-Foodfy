@@ -17,7 +17,7 @@ header {
 }
 
 header img {
-    margin-top: 36.1px;
+    /* margin-top: 36.1px; */
     margin-right: 122.4px;
 }
 
@@ -93,6 +93,8 @@ header a {
     width: 300px;
     height: 140px;
     margin: 0;
+
+    cursor: pointer;
 }
 
 .recipe h4 {
