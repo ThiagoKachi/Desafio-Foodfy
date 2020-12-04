@@ -1,0 +1,48 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/recipes.css">
+
+    <title>Receitas - Foodfy</title>
+{% endblock %}
+
+{% block content %}
+
+<section class="most-recipes">
+
+    {% for item in items %}
+
+        <div class="recipes-detail">
+            <img src="{{item.image}}" alt="{{item.title}}">
+            <h4>{{item.title}}</h4>
+            <p>{{item.author}}</p>
+        </div>
+
+    {% endfor %}
+
+</section>
+
+<footer>
+    <p>Todos os direitos reservados, receitas Foodfy.</p>
+</footer>
+
+<div class="modal-overlay">
+
+    <div class="modal">
+
+        <a class="close-modal">
+            <p>Fechar Modal</p>
+        </a>
+
+        <div class="modal-content">
+            <img src="" alt="">
+            <h4></h4>
+            <p></p>
+        </div>
+
+    </div>
+</div>
+
+<!-- <script src="/scripts.js"></script> -->
+
+{% endblock %}
