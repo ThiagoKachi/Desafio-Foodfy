@@ -101,9 +101,10 @@ header a {
 
 #ingredients #ingredients-bottom {
     margin-top: 20px;
+    margin-left: 20px;
 }
 
-#ingredients #ingredients-bottom p {
+#ingredients #ingredients-bottom li {
     font-size: 18px;
     line-height: 28px;
     color: #444444;
@@ -146,9 +147,10 @@ header a {
 
 #preparation #preparation-bottom {
     margin-top: 20px;
+    margin-left: 20px;
 }
 
-#preparation #preparation-bottom p {
+#preparation #preparation-bottom li {
     font-size: 18px;
     line-height: 28px;
     color: #444444;

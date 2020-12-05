@@ -32,38 +32,39 @@ header a {
     font-weight: 400;
 }
 
-/* recipes */
-.most-recipes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+/* error 404 */
+.not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.recipes-detail img {
-    width: 300px;
-    height: 140px;
-    border-radius: 15px;
-
-    cursor: pointer;
+.ops {
+    margin-right: 100px;
 }
 
-.recipes-detail h4 {
-    color: #111111;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-
-    margin: 0;
-    margin-top: 12px;
+.ops h1 {
+    font-size: 60px;
+    line-height: 70px;
+    color: #D54F44;
+    letter-spacing: 0.5px;
+    text-align: center;
 }
 
-.recipes-detail p {
-    margin: 0;
-    color: #777777;
-    font-size: 14px;
-    line-height: 16px; 
-    margin-top: 5px; 
-    margin-bottom: 20px;
+.imagem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagem img {
+    width: 280px;
+}
+
+.imagem h2 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #D54F44;
 }
 
 /* footer */

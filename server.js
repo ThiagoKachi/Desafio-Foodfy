@@ -26,11 +26,15 @@ server.get("/recipes", function(req, res) {
     return res.render('recipes', { items: receitas })
 })
 
-server.get("/recipes/:index", function (req, res) {
-    const recipes = receitas; // Array de receitas carregadas do data.js
+server.get("/recipes-detail/:index", function (req, res) {
+    const recipes = [...receitas]; // Array de receitas carregadas do data.js
     const recipeIndex = req.params.index;
-  
-    return res.render('recipes-detail', {[recipeIndex]: recipes});
+    
+    const recipe = recipes[recipeIndex]
+
+    
+    return res.render("recipes-detail", {receita: recipe})
+        
 })
 
 
@@ -40,6 +44,6 @@ server.listen(5000, function() {
 
 
 // Error 404
-// server.use(function(req, res) {
-//     res.status(404).render("not-found");
-//   });
+server.use(function(req, res) {
+    res.status(404).render("not-found");
+  });
