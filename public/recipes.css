@@ -68,7 +68,7 @@ header a {
 
 /* modal */
 
-.modal-overlay {
+/* .modal-overlay {
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
@@ -97,10 +97,10 @@ header a {
     right: 281px;
     bottom: 30px;
     cursor: pointer;
-}
+} */
 
 /* modal active */
-.modal-overlay.active {
+/* .modal-overlay.active {
     opacity: 1;
     visibility: visible;
 }
@@ -138,7 +138,7 @@ header a {
     text-align: center;
 
     margin-top: 5px;
-}
+} */
 
 /* footer */
 footer {

@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 230px 0 230px;
+    position: relative;
+}
+
+/* header */
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    /* margin-top: 36.1px; */
+    margin-right: 122.4px;
+}
+
+header a {
+    margin-top: 38px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #111111;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+/* recipe-detail */
+.recipe-detail .image-recipe {
+    margin-top: 56px;
+}
+
+.recipe-detail .image-recipe img {
+    width: 940px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.recipe-detail .title {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.recipe-detail .title h1 {
+    font-size: 36px;
+    color: #111111;
+    font-weight: bold;
+    line-height: 42px;
+    margin: 0;
+}
+
+.recipe-detail .title p {
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #777777;
+}
+
+/* ingredientes */
+#ingredients {
+   margin-top: 50px; 
+}
+
+#ingredients #ingredients-top {
+    display: flex;
+    margin: 0;
+}
+
+#ingredients #ingredients-top h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+    margin: 0;
+    margin-right: 8px;
+}
+
+#ingredients #ingredients-top button {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    background-color: white;
+    margin: 0;
+    cursor: pointer;
+}
+
+#ingredients #ingredients-top button:focus {
+    border: 0 none;
+    outline: 0;
+}
+
+#ingredients #ingredients-bottom {
+    margin-top: 20px;
+}
+
+#ingredients #ingredients-bottom p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    font-weight: 400;
+}
+
+/* preparation */
+#preparation {
+   margin-top: 50px; 
+}
+
+#preparation #preparation-top {
+    display: flex;
+    margin: 0;
+}
+
+#preparation #preparation-top h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+    margin: 0;
+    margin-right: 8px;
+}
+
+#preparation #preparation-top button {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    background-color: white;
+    margin: 0;
+    cursor: pointer;
+}
+
+#preparation #preparation-top button:focus {
+    border: 0 none;
+    outline: 0;
+}
+
+#preparation #preparation-bottom {
+    margin-top: 20px;
+}
+
+#preparation #preparation-bottom p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    font-weight: 400;
+}
+
+
+/* infos */
+#add-infos {
+    margin-top: 50px; 
+}
+
+#add-infos #infos-top {
+    display: flex;
+    margin: 0;
+}
+
+#add-infos #infos-top h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+    margin: 0;
+    margin-right: 8px;
+}
+
+#add-infos #infos-top button {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    background-color: white;
+    margin: 0;
+    cursor: pointer;
+}
+
+#add-infos #infos-top button:focus {
+    border: 0 none;
+    outline: 0;
+}
+
+#add-infos #infos-bottom {
+    margin-top: 20px;
+}
+
+#add-infos #infos-bottom p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    font-weight: 400;
+}
+
+#add-infos #infos-top {
+    display: flex;
+    margin: 0;
+}
+
+#add-infos #infos-top h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+    margin: 0;
+    margin-right: 8px;
+}
+
+#add-infos #infos-top button {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    background-color: white;
+    margin: 0;
+}
+
+#add-infos #infos-bottom {
+    margin-top: 20px;
+}
+
+#add-infos #infos-bottom p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    font-weight: 400;
+}
+
+/* footer */
+footer {
+    position: absolute;
+    left: 0;
+    /* bottom: -2%; */
+    margin-top: 50px;
+    background-color: #eeeeee;
+    width: 98.3vw;
+    height: 62px;
+    padding: 0;
+}
+
+footer p {
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 23px;
+}
